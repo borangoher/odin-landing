@@ -8,8 +8,11 @@ body{
     line-height: 40px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     gap: 40px;
     background-color: #1F2973;
+    padding-top: 10px;
+    padding-bottom:  40px;
 }
 
 .header-text {
@@ -20,10 +23,126 @@ body{
 ul {
     list-style-type: none;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    gap: 10px;
 }
 
 .hero {
     background-color: #1F2973;
     display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    padding-bottom: 20px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.main {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: -20px;
+    margin-bottom: -20px;
+}
+
+.sub {
+    color: #E5E7EB;
+    font-size: 18px;
+
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: 40px;
+}
+
+.information-heading {
+    text-align: center;
+    color: #1F2973;
+    font-size: 36px;
+    font-weight: 900;
+    margin: 10px;
+}
+
+.image-text-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 10px;
+}
+
+.image-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+button {
+    background-color: #3882F6;
+    border-color: #3882F6;
+    border-radius: 4px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #E5E7EB;
+    color:#1F2973;
+    font-size: 36px;
+    font-weight: 100;
+    padding: 30px;
+}
+
+.author {
+    color:#1F2973;
+    font-size: 40px;
+    font-weight: 700;
+    align-self: flex-end;
+}
+
+.call-to {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    color: #E5E7EB;
+    font-size: 20px;
+}
+
+.call-to-box {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 20px;
+    align-items: center;
+    border-radius: 6px;
+    border-color: #3882F6;
+}
+
+.left-call {
+    display: flex;
+    flex-direction: column;
+}
+
+.right-call {
+    border-color: #F9FAF8;
+}
+
+.footer {
+    background-color: #1F2973;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 16px;
 }
